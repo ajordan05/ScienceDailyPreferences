@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Science Daily</string>
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_stories">No stories found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="empty_view">There are currently no stories to display or the site is experiencing difficulties.  Please check back later.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Article Settings</string>
+
+    <string name="settings_default_sort_label">Articles Returned(1-50)</string>
+    <string name="settings_default_sort_key" translatable="false">page_size</string>
+    <string name="settings_default_num_stories" translatable="false">10</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_date_value</string>
+
+    <!-- Label for order-by date option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_date_label">Date</string>
+    <string name="settings_order_by_date_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most relevant option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_relevance_label">Most Relevant</string>
+    <string name="settings_order_by_most_relevance_value" translatable="false">relevance</string>
+
+
+</resources>
