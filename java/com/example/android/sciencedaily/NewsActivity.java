@@ -111,7 +111,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderCallbacks<L
 
         uriBuilder.appendQueryParameter("page-size", minStories);
         uriBuilder.appendQueryParameter("order-by", orderBy);
-        uriBuilder.appendQueryParameter("api-key", "2014312a-9b70-4264-afa2-57745435721a");
+        uriBuilder.appendQueryParameter("api-key", "test");
 
         Log.e("NewsActivity", "URL: " + uriBuilder.toString());
 
